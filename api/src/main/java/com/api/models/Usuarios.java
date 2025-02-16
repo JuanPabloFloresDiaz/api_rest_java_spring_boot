@@ -14,7 +14,7 @@ public class Usuarios {
     // Estrutura de la tabla tb_usuarios
     // Se define la llave primaria de la tabla
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "id_usuario", updatable = false, nullable = false, length = 36)
     private UUID id;
 
